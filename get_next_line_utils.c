@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lykalon <lykalon@student.21-school.ru>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/01/06 14:12:35 by lykalon           #+#    #+#             */
+/*   Updated: 2022/01/06 14:12:35 by lykalon          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 long	ft_strlen(char *s)
 {
 	long	i;
@@ -9,15 +21,3 @@ long	ft_strlen(char *s)
 		i++;
 	return (i);
 }
-
-//void	ft_strncpy(char *src, char *dest, long n)
-//{
-//	;
-//}
-//
-//ft_format()
-//{
-//	char	*format;
-//
-//	return (format);
-//}
